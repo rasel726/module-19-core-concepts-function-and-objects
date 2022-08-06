@@ -19,5 +19,8 @@ var myComputer = {
     processor: 'i7'
 }
 
-console.log(myComputer.price);
-console.log(mobile.brand);
+console.log(mobile);
+console.log(mobile.storage);
+
+myComputer.brand = 'Acer';
+console.log(myComputer.brand);
